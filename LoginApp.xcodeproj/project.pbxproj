@@ -13,6 +13,16 @@
 		2976E2C8254A55C70018CAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976E2C6254A55C70018CAB3 /* Main.storyboard */; };
 		2976E2CA254A55CE0018CAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976E2C9254A55CE0018CAB3 /* Assets.xcassets */; };
 		2976E2CD254A55CE0018CAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976E2CB254A55CE0018CAB3 /* LaunchScreen.storyboard */; };
+		2976E2D8254A56270018CAB3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976E2D7254A56270018CAB3 /* Login.storyboard */; };
+		2976E2DA254A568F0018CAB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2D9254A568F0018CAB3 /* LoginViewController.swift */; };
+		2976E2DD254A56FE0018CAB3 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2DC254A56FE0018CAB3 /* LoginProtocols.swift */; };
+		2976E2E0254A594A0018CAB3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2DF254A594A0018CAB3 /* LoginController.swift */; };
+		2976E2E4254A656D0018CAB3 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2E3254A656D0018CAB3 /* LoginWireframe.swift */; };
+		2976E2E9254A681C0018CAB3 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976E2E8254A681C0018CAB3 /* Register.storyboard */; };
+		2976E2EB254A683B0018CAB3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2EA254A683B0018CAB3 /* RegisterViewController.swift */; };
+		2976E2EF254A69100018CAB3 /* RegisterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2EE254A69100018CAB3 /* RegisterProtocols.swift */; };
+		2976E2F1254A69600018CAB3 /* RegisterWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2F0254A69600018CAB3 /* RegisterWireFrame.swift */; };
+		2976E2F3254A69E90018CAB3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976E2F2254A69E90018CAB3 /* RegisterController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		2976E2C9254A55CE0018CAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2976E2CC254A55CE0018CAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2976E2CE254A55CE0018CAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976E2D7254A56270018CAB3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		2976E2D9254A568F0018CAB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2976E2DC254A56FE0018CAB3 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		2976E2DF254A594A0018CAB3 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2976E2E3254A656D0018CAB3 /* LoginWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWireframe.swift; sourceTree = "<group>"; };
+		2976E2E8254A681C0018CAB3 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		2976E2EA254A683B0018CAB3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2976E2EE254A69100018CAB3 /* RegisterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProtocols.swift; sourceTree = "<group>"; };
+		2976E2F0254A69600018CAB3 /* RegisterWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterWireFrame.swift; sourceTree = "<group>"; };
+		2976E2F2254A69E90018CAB3 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 		2976E2BF254A55C70018CAB3 /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
+				2976E2E5254A67F40018CAB3 /* Register */,
+				2976E2D5254A55E50018CAB3 /* Login */,
 				2976E2C0254A55C70018CAB3 /* AppDelegate.swift */,
 				2976E2C2254A55C70018CAB3 /* SceneDelegate.swift */,
 				2976E2C4254A55C70018CAB3 /* ViewController.swift */,
@@ -65,6 +87,94 @@
 				2976E2CE254A55CE0018CAB3 /* Info.plist */,
 			);
 			path = LoginApp;
+			sourceTree = "<group>";
+		};
+		2976E2D5254A55E50018CAB3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2E2254A65300018CAB3 /* Wireframe */,
+				2976E2DE254A59330018CAB3 /* Controller */,
+				2976E2DB254A56CE0018CAB3 /* Protocols */,
+				2976E2D6254A560B0018CAB3 /* View */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2976E2D6254A560B0018CAB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2D7254A56270018CAB3 /* Login.storyboard */,
+				2976E2D9254A568F0018CAB3 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2976E2DB254A56CE0018CAB3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2DC254A56FE0018CAB3 /* LoginProtocols.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		2976E2DE254A59330018CAB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2DF254A594A0018CAB3 /* LoginController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2976E2E2254A65300018CAB3 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2E3254A656D0018CAB3 /* LoginWireframe.swift */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		2976E2E5254A67F40018CAB3 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2ED254A68EC0018CAB3 /* Protocols */,
+				2976E2EC254A68D70018CAB3 /* WireFrame */,
+				2976E2E7254A68070018CAB3 /* Controller */,
+				2976E2E6254A68000018CAB3 /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2976E2E6254A68000018CAB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2E8254A681C0018CAB3 /* Register.storyboard */,
+				2976E2EA254A683B0018CAB3 /* RegisterViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2976E2E7254A68070018CAB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2F2254A69E90018CAB3 /* RegisterController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2976E2EC254A68D70018CAB3 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2F0254A69600018CAB3 /* RegisterWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		2976E2ED254A68EC0018CAB3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2976E2EE254A69100018CAB3 /* RegisterProtocols.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2976E2D8254A56270018CAB3 /* Login.storyboard in Resources */,
 				2976E2CD254A55CE0018CAB3 /* LaunchScreen.storyboard in Resources */,
 				2976E2CA254A55CE0018CAB3 /* Assets.xcassets in Resources */,
 				2976E2C8254A55C70018CAB3 /* Main.storyboard in Resources */,
+				2976E2E9254A681C0018CAB3 /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +250,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2976E2DA254A568F0018CAB3 /* LoginViewController.swift in Sources */,
+				2976E2F1254A69600018CAB3 /* RegisterWireFrame.swift in Sources */,
+				2976E2F3254A69E90018CAB3 /* RegisterController.swift in Sources */,
+				2976E2E0254A594A0018CAB3 /* LoginController.swift in Sources */,
+				2976E2DD254A56FE0018CAB3 /* LoginProtocols.swift in Sources */,
+				2976E2EF254A69100018CAB3 /* RegisterProtocols.swift in Sources */,
+				2976E2EB254A683B0018CAB3 /* RegisterViewController.swift in Sources */,
 				2976E2C5254A55C70018CAB3 /* ViewController.swift in Sources */,
+				2976E2E4254A656D0018CAB3 /* LoginWireframe.swift in Sources */,
 				2976E2C1254A55C70018CAB3 /* AppDelegate.swift in Sources */,
 				2976E2C3254A55C70018CAB3 /* SceneDelegate.swift in Sources */,
 			);
